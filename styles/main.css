@@ -27,6 +27,10 @@
 .white{
   color:rgb(238, 238, 238);
 }
+.green{
+	color:#c000ff;
+}
+
 .blue{
   color:#9CEAF3;
 }
@@ -35,8 +39,7 @@ a{
   color: rgb(238, 238, 238);
 }
 body{
-  background-color:#393A59;
-
+  background-color:black;
   height: 100vh;
   font-family: 'Fira Code', monospace;
   display:flex;
@@ -47,8 +50,8 @@ body{
   display:flex;
   flex-direction: column;
   width:100%;
-  max-width:800px;
-  height:500px;
+  max-width:1200px;
+  height:600px;
   overflow: hidden;
   border-radius: 6px;
   border: 1px solid gray;
@@ -58,7 +61,6 @@ body{
 .menu{
   display:flex;
   align-items: center;
-
   text-align: center;
   flex-direction: row;
   width: 100%;
@@ -106,24 +108,27 @@ div.title{
 #app{
   display:flex;
   flex-direction: column;
-  background-color:#282A35;
+  background-color:black;
   width:100%;
   height:100%;
-  padding:8px;
+  padding:5px;
   overflow: auto;
 }
 p{
-  font-size:16px;
-  color:rgb(238, 238, 238);
-  padding:8px 0;
+  font-size:15px;
+  color:cornflowerblue;
+  padding: 2px 0;
 }
 h2{
   font-size:16px;
   color:rgb(238, 238, 238);
 }
 p.code{
-  color:#66C2CD;
-  margin-left:8px;
+  color:#66C2CD;  
+}
+p.statuscommand{
+	font-size:16px;
+	color:chartreuse;
 }
 span.text{
   margin-left:16px;
